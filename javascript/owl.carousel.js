@@ -235,7 +235,7 @@
 		itemElement: 'div',
 		stageElement: 'div',
 
-		// Classes and Names
+		// Programs and Names
 		themeClass: 'owl-theme',
 		baseClass: 'owl-carousel',
 		itemClass: 'owl-item',
