@@ -1660,9 +1660,9 @@ article.post .entry-meta p {
 	font-size: 30px;
 }
 
-.post-wrap .post .content-post {
+/* KRASHNIK REMOVED .post-wrap .post .content-post { */
 	/*margin-bottom: 44px;*/
-}
+/* } */
 
 .blog-grid .blog-pagination {
     position: relative;
@@ -2686,6 +2686,13 @@ footer .widget_recent-courses ul li .review-rating .flat-reviews {
 	padding: 0;
 	background-color: #fff;
 }
+.tp-banner-container #myVideo {
+	position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+	min-height: 100%;
+}
 
 .tp-bullets.simplebullets.navbar {
 	height: 35px;
@@ -2772,7 +2779,7 @@ footer .widget_recent-courses ul li .review-rating .flat-reviews {
 }
 
 .flat-row.popular-course .featured-post {
-	cursor: ;
+	cursor: pointer;
 }
 
 .flat-row.join-us, .flat-row.about-us {
@@ -2814,7 +2821,7 @@ footer .widget_recent-courses ul li .review-rating .flat-reviews {
 	left: 50%;
         transform: translateX(-50%);
    -moz-transform: translateX(-50%);
-   - ms-transform: translateX(-50%);
+   -ms-transform: translateX(-50%);
 -webkit-transform: translateX(-50%);
      -o-transform: translateX(-50%);
     padding: 0 30px;
@@ -2935,7 +2942,7 @@ footer .widget_recent-courses ul li .review-rating .flat-reviews {
 	text-align: center;
         transform: translateX(-50%);
    -moz-transform: translateX(-50%);
-   - ms-transform: translateX(-50%);
+   -ms-transform: translateX(-50%);
 -webkit-transform: translateX(-50%);
      -o-transform: translateX(-50%);
 }
@@ -2986,7 +2993,7 @@ footer .widget_recent-courses ul li .review-rating .flat-reviews {
 	position: absolute;		
         transform: translate(-50%,-50%);
    -moz-transform: translate(-50%,-50%);
-   - ms-transform: translate(-50%,-50%);
+   -ms-transform: translate(-50%,-50%);
 -webkit-transform: translate(-50%,-50%);
      -o-transform: translate(-50%,-50%);    
 }
@@ -3045,7 +3052,7 @@ footer .widget_recent-courses ul li .review-rating .flat-reviews {
 	left: 50%;
         transform: translateX(-50%);
    -moz-transform: translateX(-50%);
-   - ms-transform: translateX(-50%);
+   -ms-transform: translateX(-50%);
 -webkit-transform: translateX(-50%);
      -o-transform: translateX(-50%);
      text-align: center;
