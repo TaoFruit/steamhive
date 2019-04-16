@@ -2686,13 +2686,6 @@ footer .widget_recent-courses ul li .review-rating .flat-reviews {
 	padding: 0;
 	background-color: #fff;
 }
-.tp-banner-container #myVideo {
-	position: absolute;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-	min-height: 100%;
-}
 
 .tp-bullets.simplebullets.navbar {
 	height: 35px;
@@ -2903,6 +2896,15 @@ footer .widget_recent-courses ul li .review-rating .flat-reviews {
 .flat-row.testimonial {
 	background: url("../images/index/bg-testimonial.jpg") no-repeat;
 	padding: 93px 0 96px;
+	position: relative;
+	overflow: hidden;
+}
+.flat-row.testimonial #myVideo {
+	position: absolute;
+    right: 0;
+    min-width: 100%;
+	min-height: 100%;
+	bottom: 0;
 }
 
 .flat-row.testimonial .testimonial-slider {
