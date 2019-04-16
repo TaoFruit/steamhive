@@ -1,2 +1,2 @@
-# steamhive
-Steam Hive Learning Center
+# STEAM Hive
+STEAM Hive Learning Center
